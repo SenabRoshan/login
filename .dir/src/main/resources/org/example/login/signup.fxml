@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.login.LoginController">
+   <children>
+      <Text layoutX="34.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Details">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fname" layoutX="111.0" layoutY="75.0" />
+      <TextField fx:id="lname" layoutX="111.0" layoutY="112.0" />
+      <Text layoutX="34.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age: " />
+      <Text layoutX="34.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Civil Status: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="age" layoutX="111.0" layoutY="145.0" />
+      <TextField fx:id="birthday" layoutX="112.0" layoutY="177.0" />
+      <TextField fx:id="gender" layoutX="112.0" layoutY="208.0" />
+      <TextField fx:id="civil" layoutX="112.0" layoutY="244.0" />
+      <TextField fx:id="country" layoutX="112.0" layoutY="276.0" />
+      <Text layoutX="377.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Details">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="366.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="364.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email" layoutX="412.0" layoutY="75.0" />
+      <TextField fx:id="mobile" layoutX="413.0" layoutY="110.0" />
+      <Text layoutX="373.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Details">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="364.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User name: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="362.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="362.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <TextField layoutX="432.0" layoutY="231.0" />
+      <TextField layoutX="432.0" layoutY="263.0" />
+      <TextField fx:id="confirm" layoutX="432.0" layoutY="297.0" />
+      <Button fx:id="submit" layoutX="125.0" layoutY="348.0" mnemonicParsing="false" onAction="#submit" text="Submit">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="clear" layoutX="321.0" layoutY="349.0" mnemonicParsing="false" onAction="#clear" text="Clear">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

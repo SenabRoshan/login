@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="241.0" prefWidth="407.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="org.example.login.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox prefHeight="26.0" prefWidth="367.0">
+      <children>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" wrappingWidth="62.78869676589966">
+            <font>
+               <Font name="System Bold Italic" size="14.0" />
+            </font>
+         </Text>
+      </children>
+   </HBox>
+   <HBox prefHeight="32.0" prefWidth="367.0">
+      <children>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="User name: ">
+            <font>
+               <Font size="13.0" />
+            </font>
+         </Text>
+         <TextField />
+      </children>
+   </HBox>
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <HBox prefHeight="100.0" prefWidth="221.0">
+            <children>
+               <Text lineSpacing="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: " wrappingWidth="67.69317626953125">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Text>
+               <TextField prefHeight="26.0" prefWidth="156.0" />
+            </children>
+         </HBox>
+      </children>
+   </HBox>
+   <Button mnemonicParsing="false" text=" Sign In">
+      <font>
+         <Font name="System Bold Italic" size="13.0" />
+      </font>
+   </Button>
+   <Button fx:id="signup" mnemonicParsing="false" onAction="#signup" text="Sign Up">
+      <font>
+         <Font name="System Bold Italic" size="13.0" />
+      </font>
+   </Button>
+
+    <Label fx:id="welcomeText" />
+</VBox>
